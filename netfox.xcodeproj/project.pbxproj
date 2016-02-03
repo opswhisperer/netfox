@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9026826A1C6299C70025FBF5 /* NFXDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902682691C6299C70025FBF5 /* NFXDelegate.swift */; };
 		CEFE42C51C0DDBD8001A56E0 /* NFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42B51C0DDBD8001A56E0 /* NFX.swift */; };
 		CEFE42C61C0DDBD8001A56E0 /* NFXAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42B61C0DDBD8001A56E0 /* NFXAssets.swift */; };
 		CEFE42C71C0DDBD8001A56E0 /* NFXDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42B71C0DDBD8001A56E0 /* NFXDetailsController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		902682691C6299C70025FBF5 /* NFXDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFXDelegate.swift; sourceTree = "<group>"; };
 		B3BC020F1C09CDA000C17F3A /* netfox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = netfox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFE42B51C0DDBD8001A56E0 /* NFX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFX.swift; sourceTree = "<group>"; };
 		CEFE42B61C0DDBD8001A56E0 /* NFXAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFXAssets.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				CEFE42B51C0DDBD8001A56E0 /* NFX.swift */,
+				902682691C6299C70025FBF5 /* NFXDelegate.swift */,
 				CEFE42B61C0DDBD8001A56E0 /* NFXAssets.swift */,
 				CEFE42B71C0DDBD8001A56E0 /* NFXDetailsController.swift */,
 				CEFE42B81C0DDBD8001A56E0 /* NFXGenericBodyDetailsController.swift */,
@@ -183,6 +186,7 @@
 				CEFE42D31C0DDBD8001A56E0 /* NFXSettingsController.swift in Sources */,
 				CEFE42C61C0DDBD8001A56E0 /* NFXAssets.swift in Sources */,
 				CEFE42C71C0DDBD8001A56E0 /* NFXDetailsController.swift in Sources */,
+				9026826A1C6299C70025FBF5 /* NFXDelegate.swift in Sources */,
 				CEFE42CE1C0DDBD8001A56E0 /* NFXInfoController.swift in Sources */,
 				CEFE42CF1C0DDBD8001A56E0 /* NFXListCell.swift in Sources */,
 				CEFE42D01C0DDBD8001A56E0 /* NFXListController.swift in Sources */,

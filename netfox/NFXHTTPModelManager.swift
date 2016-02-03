@@ -10,13 +10,17 @@ import Foundation
 private let _sharedInstance = NFXHTTPModelManager()
 
 final class NFXHTTPModelManager: NSObject
+    
 {
     static let sharedInstance = NFXHTTPModelManager()
     private var models = [NFXHTTPModel]()
+    var delegate: NFXModelManagerDelegate?
+    
     
     func add(obj: NFXHTTPModel)
     {
         self.models.insert(obj, atIndex: 0)
+        self.delegate?.didAddModel(obj)
     }
     
     func clear()
